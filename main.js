@@ -58,5 +58,5 @@ const pngData = canvas.toDataURL("image/png"); // returns a base64 PNG string
 
 const link = document.createElement("a");
 link.href = pngData;
-link.download = "my-canvas.png";
+link.download = "canvas.png";
 link.click();
